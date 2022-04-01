@@ -37,7 +37,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView2"
-        app:layout_constraintVertical_bias="0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/button"
@@ -50,7 +50,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/button2"
         app:layout_constraintTop_toBottomOf="@+id/scrollView2"
-        app:layout_constraintVertical_bias="0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -58,7 +58,7 @@
         android:layout_height="49dp"
         android:backgroundTint="@color/orange_100"
         android:ems="10"
-        android:hint="Поиск"
+        android:hint="Search"
         android:inputType="textCapWords"
         android:textColor="@color/orange_100"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"

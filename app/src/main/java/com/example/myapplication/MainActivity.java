@@ -8,6 +8,7 @@ import android.database.Cursor;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
@@ -71,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             Toast toast = Toast.makeText(getApplicationContext(),
                     "No internet connection", Toast.LENGTH_LONG);
+            toast.setGravity(Gravity.CENTER, 0, 0);
             toast.show();
         }
     }
